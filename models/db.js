@@ -41,7 +41,7 @@ const app = express();
 app.use(express.json()); // Parse JSON bodies
 
 // MongoDB connection setup
-mongoose.connect('mongodb+srv://sakshamsharma8982:uZhckiM2PhzGOkvQ@cluster0.xp9y2hx.mongodb.net/StudentDB')
+mongoose.connect('')
 .then(() => {
     console.log('Connected to MongoDB');
     // Start the server after successful MongoDB connection
